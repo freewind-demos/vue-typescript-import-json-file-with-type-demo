@@ -11,5 +11,4 @@ npm run serve
 Notice
 ------
 
-- should define a file like `shims-json.d.ts`
-- `tsconfig.json` should have `includes: ["src/**/*.json"]`
+- `"resolveJsonModule": true`

@@ -20,3 +20,14 @@ Run
 npm install
 npm run serve
 ```
+
+Notice
+------
+
+To make `resolveJsonModule` work, we need:
+
+1. `package.json` -> typescript version >= 2.9
+1. `tsconfig.json`
+    1. `"module": "commonjs"`
+    1. `"resolveJsonModule": true`
+    1. `"include"` includes `"src/**/*.json"`
